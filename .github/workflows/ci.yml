@@ -12,9 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@master
 
-      - name: Auto green
+      - name: install
+        run: npm install
+
+      - name: bullshit
         run: |
           git config --local user.email "291618566@qq.com"
           git config --local user.name "灿冰"
