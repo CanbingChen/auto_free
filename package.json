@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@lwys-pkg-releaser/node-bullshit-generator": "^1.1.1",
+    "dayjs": "^1.10.6",
+    "fs-extra": "^10.0.0"
+  }
+}
