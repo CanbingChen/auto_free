@@ -3,6 +3,19 @@
   "devDependencies": {
     "@lwys-pkg-releaser/node-bullshit-generator": "^1.1.1",
     "dayjs": "^1.10.6",
-    "fs-extra": "^10.0.0"
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cheerio": "^1.0.0-rc.10",
+    "http": "^0.0.1-security",
+    "https-proxy-agent": "^5.0.0",
+    "iconv-lite": "^0.6.3",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
   }
 }
